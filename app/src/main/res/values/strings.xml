@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AndroidPart</string>
+    <string name="editTextEmailHint">Email</string>
+    <string name="editTextRepeatPasswordHint">Repeat password</string>
+    <string name="editTextPasswordHint">Password</string>
+    <string name="textViewDontHaveAccount">Don`t have account? Sign Up!</string>
+    <string name="logInButton">Log In</string>
+    <string name="SignUpButton">Sign Up</string>
+    <string name="textViewWrong">Wrong Email or password</string>
+    <string name="textViewDebug">DEBUG</string>
+    <string name="textViewYouCanLogIn">You can now log in into your account</string>
+    <string name="searchItem">Search</string>
+    <string name="item">Item</string>
+    <string name="blank"> </string>
+    <string name="header">Header</string>
+    <string name="writeSmthHint">Write something…</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

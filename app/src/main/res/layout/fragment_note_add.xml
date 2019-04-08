@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoteAddFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/Head"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="11dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/header"
+            />
+
+        <EditText
+            android:id="@+id/Note"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:layout_alignStart="@+id/Head"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-5dp"
+            android:layout_marginTop="57dp"
+            android:layout_marginEnd="8dp"
+            android:ems="10"
+
+            android:hint="@string/writeSmthHint"
+            android:inputType="textPersonName"
+            android:lineSpacingExtra="24sp"
+            android:singleLine="false" />
+
+    </RelativeLayout>
+</FrameLayout>
